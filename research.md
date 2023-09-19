@@ -16,29 +16,33 @@ If you have questions/comments about my work or the field in general, please do 
 A list of my papers can be found below, and also on [NASA ADS](https://ui.adsabs.harvard.edu/public-libraries/LqJDfKCTTdeuL_Inb7SwVw), [arXiv](https://arxiv.org/a/vijaykumar_a_1.html). I have done a twitter thread accessible to non-experts for some of my released papers, linked below.
 
 ## Short Authorlist Papers
+- Avinash Tiwari, Aditya Vijaykumar, Shasvath J. Kapadia, Giacomo Fragione, Sourav Chatterjee
+	*Accelerated binary black holes in globular clusters: forecasts and detectability in the era of space-based gravitational-wave detectors*.
+	[arXiv](https://arxiv.org/abs/2307.00930).
+
 - **Aditya Vijaykumar**, Avinash Tiwari, Shasvath J. Kapadia, K.G. Arun, Parameswaran Ajith  
 	*Waltzing binaries: Probing line-of-sight acceleration of merging compact objects with gravitational waves*.  
-	[arXiv](https://arxiv.org/abs/2302.09651)
+	[arXiv](https://arxiv.org/abs/2302.09651), [ApJ](https://iopscience.iop.org/article/10.3847/1538-4357/acd77d), [Astrobites Article](https://astrobites.org/2023/03/17/grab-doppler-dance-partner/).
 
 - Adhrit Ravichandran, **Aditya Vijaykumar**, Shasvath J. Kapadia, Prayush Kumar  
 	*Rapid Identification and Classification of Eccentric Gravitational Wave Inspirals with Machine Learning*.  
-	[arXiv](https://arxiv.org/abs/2302.00666)
+	[arXiv](https://arxiv.org/abs/2302.00666).
 
 - Srashti Goyal, **Aditya Vijaykumar**, Jose María Ezquiaga, Miguel Zumalacárregui  
 	*Probing lens-induced gravitational-wave birefringence as a test of general relativity*.  
-	[arXiv](https://arxiv.org/abs/2301.04826)
+	[arXiv](https://arxiv.org/abs/2301.04826), [Phys. Rev. D](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.108.024052), [Astrobites Article](https://astrobites.org/2023/04/11/gravitational-waves-a-la-general-relativity-or-scrambled/).
 
 - Bikram Keshari Pradhan, **Aditya Vijaykumar**, Debarati Chatterjee  
 	*Impact of updated Multipole Love and f-Love Universal Relations in context of Binary Neutron Stars*.  
-	[arXiv](https://arxiv.org/abs/2210.09425).
+	[arXiv](https://arxiv.org/abs/2210.09425), [Phys. Rev. D](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.107.023010).
 
 - **Aditya Vijaykumar**, Shasvath J. Kapadia, Parameswaran Ajith  
 	*Can a binary neutron star merger in the vicinity of a supermassive black hole enable a detection of a post-merger gravitational wave signal?*.  
 	[arXiv](https://arxiv.org/abs/2202.08673), [MNRAS](https://doi.org/10.1093/mnras/stac1131).
 
-- **Aditya Vijaykumar**, Ajit Kumar Mehta, Apratim Ganguly  
+- **Aditya Vijaykumar**, Ajit Kumar Mehta, Apratim Ganguly 
 	*Detection and parameter estimation challenges of Type-II lensed binary black hole signals*.  
-	[arXiv](https://arxiv.org/abs/2202.06334).
+	[arXiv](https://arxiv.org/abs/2202.06334), [Phys. Rev. D](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.108.043036).
 
 - Sumit Kumar, **Aditya Vijaykumar**, Alexander H. Nitz  
 	*Detecting Baryon Acoustic Oscillations with third generation gravitational wave observatories*.  
