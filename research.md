@@ -11,7 +11,7 @@ layout: page
 
 I work on physics, astrophysics and data analysis aspects of gravitational waves. I also try to dabble in scientific computing now and then. My most updated CV can be found [here](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/adivijaykumar/resume/master/Vijaykumar_CV_with_pubs.pdf).
 
-If you have questions/comments about my work or the field in general, please do not hesitate to contact me at aditya [dot] vijaykumar [at] icts [dot] res [dot] in.
+If you have questions/comments about my work or the field in general, please do not hesitate to contact me at aditya [at] utoronto [dot] ca.
 
 A list of my papers can be found below, and also on [NASA ADS](https://ui.adsabs.harvard.edu/public-libraries/LqJDfKCTTdeuL_Inb7SwVw), [arXiv](https://arxiv.org/a/vijaykumar_a_1.html). I have done a twitter thread accessible to non-experts for some of my released papers, linked below.
 

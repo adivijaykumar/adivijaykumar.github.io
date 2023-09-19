@@ -34,6 +34,7 @@ disqus:
   categories: # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
+email: aditya@utoronto.ca
 facebook: adivijaykumar
 twitter: alsogoesbyV
 instagram: adivijaykumar
@@ -50,7 +51,6 @@ gitlab: aditya.vijaykumar
 # medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: aditya.vijaykumar@icts.res.in
 
 # if you don't have any scientific social links below, comment the line
 scholar: cLlRcPYAAAAJ
