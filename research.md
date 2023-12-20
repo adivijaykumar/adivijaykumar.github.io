@@ -17,7 +17,7 @@ A list of my papers can be found below, and also on [NASA ADS](https://ui.adsabs
 
 ## Short Authorlist Papers
 - Mukesh Kumar Singh, Shasvath J. Kapadia, **Aditya Vijaykumar**, Parameswaran Ajith  
-	*Accelerated parameter estimation in Bilby with relative binning*.  
+	*Impact of higher harmonics of gravitational radiation on the population inference of binary black holes*.  
 	[arXiv](https://arxiv.org/abs/2312.07376).
 
 - Kruthi Krishna, **Aditya Vijaykumar**,  Apratim Ganguly, *et al*  
