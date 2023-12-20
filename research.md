@@ -16,9 +16,25 @@ If you have questions/comments about my work or the field in general, please do 
 A list of my papers can be found below, and also on [NASA ADS](https://ui.adsabs.harvard.edu/public-libraries/LqJDfKCTTdeuL_Inb7SwVw), [arXiv](https://arxiv.org/a/vijaykumar_a_1.html). I have done a twitter thread accessible to non-experts for some of my released papers, linked below.
 
 ## Short Authorlist Papers
-- Avinash Tiwari, Aditya Vijaykumar, Shasvath J. Kapadia, Giacomo Fragione, Sourav Chatterjee
-	*Accelerated binary black holes in globular clusters: forecasts and detectability in the era of space-based gravitational-wave detectors*.
-	[arXiv](https://arxiv.org/abs/2307.00930).
+- Mukesh Kumar Singh, Shasvath J. Kapadia, **Aditya Vijaykumar**, Parameswaran Ajith  
+	*Accelerated parameter estimation in Bilby with relative binning*.  
+	[arXiv](https://arxiv.org/abs/2312.07376).
+
+- Kruthi Krishna, **Aditya Vijaykumar**,  Apratim Ganguly, *et al*  
+	*Accelerated parameter estimation in Bilby with relative binning*.  
+	[arXiv](https://arxiv.org/abs/2312.06009).
+
+- **Aditya Vijaykumar**, Maya Fishbach, Susmita Adhikari, Daniel E. Holz  
+	*Inferring host galaxy properties of LIGO-Virgo-KAGRA's black holes*.  
+	[arXiv](https://arxiv.org/abs/2312.03316).
+
+- Divyajyoti, N.V. Krishnendu, Muhammed Saleem, Marta Colleoni, **Aditya Vijaykumar**, K.G. Arun, Chandra Kant Mishra  
+	*Effect of double spin-precession and higher harmonics on spin-induced quadrupole moment measurements*.  
+	[arXiv](https://arxiv.org/abs/2311.05506).
+
+- Avinash Tiwari, **Aditya Vijaykumar**, Shasvath J. Kapadia, Giacomo Fragione, Sourav Chatterjee  
+	*Accelerated binary black holes in globular clusters: forecasts and detectability in the era of space-based gravitational-wave detectors*.  
+	[MNRAS](https://academic.oup.com/mnras/article/527/3/8586/7459933), [arXiv](https://arxiv.org/abs/2307.00930).
 
 - **Aditya Vijaykumar**, Avinash Tiwari, Shasvath J. Kapadia, K.G. Arun, Parameswaran Ajith  
 	*Waltzing binaries: Probing line-of-sight acceleration of merging compact objects with gravitational waves*.  
@@ -55,7 +71,7 @@ A list of my papers can be found below, and also on [NASA ADS](https://ui.adsabs
 
 - **Aditya Vijaykumar**, MV Saketh, Sumit Kumar, Parameswaran Ajith, Tirthankar Roy Choudhury  
 	*Probing the large scale structure using gravitational-wave observations of binary black holes*.  
-	[arXiv](https://arxiv.org/abs/2005.01111), [Twitter Thread](https://twitter.com/alsogoesbyV/status/1257520110853476358), [Astrobites Article](https://astrobites.org/2020/05/07/binary-black-holes-tangled-up-in-the-cosmic-web/).
+	[Phys. Rev. D](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.108.103017), [arXiv](https://arxiv.org/abs/2005.01111), [Twitter Thread](https://twitter.com/alsogoesbyV/status/1257520110853476358), [Astrobites Article](https://astrobites.org/2020/05/07/binary-black-holes-tangled-up-in-the-cosmic-web/).
 
 - **Aditya Vijaykumar**, Shasvath J. Kapadia, Parameswaran Ajith  
 	*Constraints on the time variation of the gravitational constant using gravitational wave observations of binary neutron stars*.  
