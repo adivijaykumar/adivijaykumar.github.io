@@ -16,6 +16,14 @@ If you have questions/comments about my work or the field in general, please do 
 A list of my papers can be found below, and also on [NASA ADS](https://ui.adsabs.harvard.edu/public-libraries/LqJDfKCTTdeuL_Inb7SwVw), [arXiv](https://arxiv.org/a/vijaykumar_a_1.html). I have done a twitter thread accessible to non-experts for some of my released papers, linked below.
 
 ## Short Authorlist Papers
+- Alexandra G. Hanselman, **Aditya Vijaykumar**, Maya Fishbach, Daniel E. Holz  
+	*Gravitational-wave dark siren cosmology systematics from galaxy weighting*.  
+	[arXiv](https://arxiv.org/abs/2405.14818).
+
+- Sreejith Nair, **Aditya Vijaykumar**, Sudipta Sarkar  
+	*Bounds on the charge of the graviton using gravitational wave observations*.  
+	[arXiv](https://arxiv.org/abs/2405.05038).
+
 - Mukesh Kumar Singh, Shasvath J. Kapadia, **Aditya Vijaykumar**, Parameswaran Ajith  
 	*Impact of higher harmonics of gravitational radiation on the population inference of binary black holes*.  
 	[arXiv](https://arxiv.org/abs/2312.07376).
