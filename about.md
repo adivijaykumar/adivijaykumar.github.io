@@ -7,7 +7,7 @@ layout: page
 	
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-My name is Aditya Vijaykumar. To reach out digitally, use `aditya [at] utoronto [dot] ca`.
+My name is Aditya Vijaykumar. To reach out digitally, use `aditya [at] utoronto [dot] ca`. My latest CV [can be found here](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/adivijaykumar/resume/master/Vijaykumar_CV_with_pubs.pdf).
 
 1. I work on various physics and astrophysics aspects of gravitational waves. My work involves both theory and computation, as well as an understanding of experimental data from gravitational-wave detectors. More information about my research [can be found here](https://adivijaykumar.github.io/research/).
 
