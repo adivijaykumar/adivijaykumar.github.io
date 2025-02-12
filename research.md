@@ -16,17 +16,25 @@ If you have questions/comments about my work or the field in general, please do 
 A list of my papers can be found below, and also on [NASA ADS](https://ui.adsabs.harvard.edu/public-libraries/LqJDfKCTTdeuL_Inb7SwVw), [arXiv](https://arxiv.org/a/vijaykumar_a_1.html). I have done a twitter thread accessible to non-experts for some of my released papers, linked below.
 
 ## Short Authorlist Papers
+- Kanchan Soni, **Aditya Vijaykumar**, Sanjit Mitra
+	*Assessing the potential of LIGO-India in resolving the Hubble Tension*
+  	[arXiv](https://arxiv.org/abs/2409.11361).
+
+- Avinash Tiwari, **Aditya Vijaykumar**, Shasvath J. Kapadia, Sourav Chatterjee
+	*Profiling stellar environments of gravitational wave sources*
+  	[arXiv](https://arxiv.org/abs/2407.15117)
+
 - Alexandra G. Hanselman, **Aditya Vijaykumar**, Maya Fishbach, Daniel E. Holz  
 	*Gravitational-wave dark siren cosmology systematics from galaxy weighting*.  
-	[arXiv](https://arxiv.org/abs/2405.14818).
+	[arXiv](https://arxiv.org/abs/2405.14818), [ApJ](https://iopscience.iop.org/article/10.3847/1538-4357/ad9393).
 
 - Sreejith Nair, **Aditya Vijaykumar**, Sudipta Sarkar  
 	*Bounds on the charge of the graviton using gravitational wave observations*.  
-	[arXiv](https://arxiv.org/abs/2405.05038).
+  	[arXiv](https://arxiv.org/abs/2405.05038), [JCAP](https://iopscience.iop.org/article/10.1088/1475-7516/2024/11/004).
 
 - Mukesh Kumar Singh, Shasvath J. Kapadia, **Aditya Vijaykumar**, Parameswaran Ajith  
 	*Impact of higher harmonics of gravitational radiation on the population inference of binary black holes*.  
-	[arXiv](https://arxiv.org/abs/2312.07376).
+	[arXiv](https://arxiv.org/abs/2312.07376), [ApJ](https://iopscience.iop.org/article/10.3847/1538-4357/ad499b).
 
 - Kruthi Krishna, **Aditya Vijaykumar**,  Apratim Ganguly, *et al*  
 	*Accelerated parameter estimation in Bilby with relative binning*.  
@@ -34,15 +42,15 @@ A list of my papers can be found below, and also on [NASA ADS](https://ui.adsabs
 
 - **Aditya Vijaykumar**, Maya Fishbach, Susmita Adhikari, Daniel E. Holz  
 	*Inferring host galaxy properties of LIGO-Virgo-KAGRA's black holes*.  
-	[arXiv](https://arxiv.org/abs/2312.03316).
+  	[arXiv](https://arxiv.org/abs/2312.03316), [ApJ](https://iopscience.iop.org/article/10.3847/1538-4357/ad6140).
 
 - Divyajyoti, N.V. Krishnendu, Muhammed Saleem, Marta Colleoni, **Aditya Vijaykumar**, K.G. Arun, Chandra Kant Mishra  
 	*Effect of double spin-precession and higher harmonics on spin-induced quadrupole moment measurements*.  
-	[arXiv](https://arxiv.org/abs/2311.05506).
+	[Phys. Rev. D](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.109.023016), [arXiv](https://arxiv.org/abs/2311.05506).
 
 - Avinash Tiwari, **Aditya Vijaykumar**, Shasvath J. Kapadia, Giacomo Fragione, Sourav Chatterjee  
 	*Accelerated binary black holes in globular clusters: forecasts and detectability in the era of space-based gravitational-wave detectors*.  
-	[MNRAS](https://academic.oup.com/mnras/article/527/3/8586/7459933), [arXiv](https://arxiv.org/abs/2307.00930).
+	[arXiv](https://arxiv.org/abs/2307.00930), [MNRAS](https://academic.oup.com/mnras/article/527/3/8586/7459933).
 
 - **Aditya Vijaykumar**, Avinash Tiwari, Shasvath J. Kapadia, K.G. Arun, Parameswaran Ajith  
 	*Waltzing binaries: Probing line-of-sight acceleration of merging compact objects with gravitational waves*.  
