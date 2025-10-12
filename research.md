@@ -13,16 +13,29 @@ I work on physics, astrophysics and data analysis aspects of gravitational waves
 
 If you have questions/comments about my work or the field in general, please do not hesitate to contact me at aditya [at] utoronto [dot] ca.
 
-A list of my papers can be found below, and also on [NASA ADS](https://ui.adsabs.harvard.edu/public-libraries/LqJDfKCTTdeuL_Inb7SwVw), [arXiv](https://arxiv.org/a/vijaykumar_a_1.html). I have done a twitter thread accessible to non-experts for some of my released papers, linked below.
+The most updated list of my papers can be found on [NASA ADS](https://ui.adsabs.harvard.edu/public-libraries/LqJDfKCTTdeuL_Inb7SwVw), [arXiv](https://arxiv.org/a/vijaykumar_a_1.html). They are also pasted below. I have done a twitter thread accessible to non-experts for some of my released papers, linked below.
 
 ## Short Authorlist Papers
+
+- Avinash Tiwari, et al., (including **Aditya Vijaykumar**)
+  *Profiling Dark Matter Spikes with Gravitational Waves from Accelerated Binaries*
+  [arXiv](https://arxiv.org/abs/2508.03803)
+
+- Andris Doroszmai, Isobel Romero-Shaw, **Aditya Vijaykumar**, et al.,
+  *Hierarchical Triples vs. Globular Clusters: Binary black hole merger eccentricity distributions compete and evolve with redshift*
+  [arXiv](https://arxiv.org/abs/2507.23212)
+
+- Avinash Tiwari, **Aditya Vijaykumar**, Shasvath J. Kapadia, Shrobana Ghosh, Alex B. Nielsen
+   *A pipeline to search for signatures of line-of-sight acceleration in gravitational wave signals produced by compact binary coalescences*
+   [arXiv](https://arxiv.org/abs/2506.22272).
+
 - Kanchan Soni, **Aditya Vijaykumar**, Sanjit Mitra
 	*Assessing the potential of LIGO-India in resolving the Hubble Tension*
   	[arXiv](https://arxiv.org/abs/2409.11361).
 
 - Avinash Tiwari, **Aditya Vijaykumar**, Shasvath J. Kapadia, Sourav Chatterjee
 	*Profiling stellar environments of gravitational wave sources*
-  	[arXiv](https://arxiv.org/abs/2407.15117)
+  	[arXiv](https://arxiv.org/abs/2407.15117).
 
 - Alexandra G. Hanselman, **Aditya Vijaykumar**, Maya Fishbach, Daniel E. Holz  
 	*Gravitational-wave dark siren cosmology systematics from galaxy weighting*.  
