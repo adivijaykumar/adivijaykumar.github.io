@@ -7,7 +7,7 @@
         {% endif %}
 
         {% if site.blog == true %}
-            {% if page.title != "Blog" %}
+            {% if page.title != "Blog" and page.title != "Home" %}
                 <li class="item">
                     <a class="link" href="{{ site.url }}/blog">Blog</a>
                 </li>
@@ -34,20 +34,17 @@
             <a class="link" href="{{ site.url }}/research">Research</a>
         </li>
 
-        
-        <li class="item">
-            <a class="link" href="{{ site.url }}/resources">Resources</a>
-        </li>
-
         {% if site.cv_url %}
             <li class="item">
                 <a class="link" href="{{ site.cv_url }}">CV</a>
             </li>
         {% endif %}
 
+        
         <li class="item">
-            <a class="link" href="{{ site.url }}/blog">Blog</a>
+            <a class="link" href="{{ site.url }}/resources">Resources</a>
         </li>
+
 
         {% if site.resume == true %}
             <li class="item">
