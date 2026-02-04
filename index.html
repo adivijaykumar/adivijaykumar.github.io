@@ -1,3 +1,8 @@
+---
+layout: default
+title: Aditya Vijaykumar's Homepage
+permalink: /
+---
 <!DOCTYPE html>
 <html>
 
@@ -6,7 +11,7 @@
   	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
 	<title>Aditya Vijaykumar's Homepage</title> 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="ishtyle.css">
+	<link rel="stylesheet" href="/assets/css/ishtyle.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script src="https://kit.fontawesome.com/046ddb376a.js" crossorigin="anonymous"></script>
 </head>
@@ -19,9 +24,9 @@
 		<div class="posttext">		
     			<div class="centbox">
 				<div class="fade-in">
-					<img src="profile.jpg" width="200px" style="padding:1%" alt="Avatar">
-					<h1 style="color: black;">Aditya Vijaykumar</h1>
-					CITA Postdoctoral Fellow working on Gravitational Waves	
+					<img src="/assets/images/profile.jpg" width="200px" style="padding:1%" alt="Avatar">
+					<h1 style="color: black;">{{ site.name }}</h1>
+					{{ site.bio }}	
 				</div>
 			</div>
 		</div>
@@ -31,21 +36,21 @@
 		<div class="menutext">
 			<ul>
   				<!--li><a href="#home">Home</a></li-->
-  				<li><a href="https://adivijaykumar.github.io/about/">About</a></li>
-  				<li><a href="https://adivijaykumar.github.io/research/">Research</a></li>
-  				<li><a href="https://adivijaykumar.github.io/resources/">Resources</a></li>
-				<li><a href="https://adivijaykumar.github.io/blog/">Blog</a></li>
+  				<li><a href="/about/">About</a></li>
+  				<li><a href="/research/">Research</a></li>
+  				<li><a href="/resources/">Resources</a></li>
+				<li><a href="/blog/">Blog</a></li>
 			</ul>
 		</div>
 		</div>
 
 				<div class ="icons">
-			<a href="https://www.facebook.com/adivijaykumar" class="fa fa-facebook"></a>
-			<a href="https://twitter.com/alsogoesbyv?lang=en" class="fa fa-twitter"></a>
-			<a href="https://github.com/adivijaykumar" class="fa fa-github"></a>
+			<a href="https://www.facebook.com/{{ site.facebook }}" class="fa fa-facebook"></a>
+			<a href="https://twitter.com/{{ site.twitter }}?lang=en" class="fa fa-twitter"></a>
+			<a href="https://github.com/{{ site.github }}" class="fa fa-github"></a>
 			<a href="https://git.ligo.org/aditya.vijaykumar" class="fa fa-gitlab"></a>
-			<a href="https://www.instagram.com/adivijaykumar/?hl=en" class="fa fa-instagram"></a>
-			<a href="mailto:aditya@utoronto.ca" class="fa fa-envelope"></a>
+			<a href="https://www.instagram.com/{{ site.instagram }}" class="fa fa-instagram"></a>
+			<a href="mailto:{{ site.email }}" class="fa fa-envelope"></a>
 		</div>		
 
 	</div>
@@ -53,9 +58,9 @@
 
 
 	<div class="cright">
-  			Aditya Vijaykumar &copy; 2024.
+  			{{ site.name }} &copy; {{ site.time | date: "%Y" }}.
   			Theme by <a href="https://github.com/sergiokopplin/indigo" style="color:black;">Kopplin</a>.
 	</div>
-	<script src="ishcript.jss"></script>
+	<script src="/assets/js/ishcript.js"></script>
 </body>
 </html>
