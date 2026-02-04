@@ -1,9 +1,9 @@
 # main text of home
 name: Aditya Vijaykumar
-bio: Physicist working on Gravitational Waves
+bio: CITA Postdoctoral Fellow working on Gravitational Waves
 
 # twitter summary info
-description: Aditya Vijaykumar - Physicist working on Gravitational Waves
+description: Aditya Vijaykumar - CITA Postdoctoral Fellow working on Gravitational Waves
 
 # if it's an external image, update below for true
 # better with square images
@@ -17,6 +17,7 @@ resume-external: false
 resume-url: https://google.com/?q=my+resume
 
 url: https://adivijaykumar.github.io
+cv_url: https://docs.google.com/viewer?url=https://raw.githubusercontent.com/adivijaykumar/resume/master/Vijaykumar_CV_with_pubs.pdf
 # your url: https://USERNAME.github.io
 
 permalink: /:title/
@@ -61,12 +62,11 @@ scholar: cLlRcPYAAAAJ
 # impactstory: myimpactstory
 # figshare: myfigshare
 # slideshare: myslideshare
-speakerdeck: vivekkrish
 
 authors:
   johndoe:
     name: Aditya Vijaykumar
-    bio: Physicist working on Gravitational Waves
+    bio: CITA Postdoctoral Fellow working on Gravitational Waves
     external-image: false
     picture: home1.jpg
     twitter: adivijaykumar

@@ -39,6 +39,12 @@
             <a class="link" href="{{ site.url }}/resources">Resources</a>
         </li>
 
+        {% if site.cv_url %}
+            <li class="item">
+                <a class="link" href="{{ site.cv_url }}">CV</a>
+            </li>
+        {% endif %}
+
         <li class="item">
             <a class="link" href="{{ site.url }}/blog">Blog</a>
         </li>
