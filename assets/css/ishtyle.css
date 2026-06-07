@@ -11,12 +11,12 @@
   --surface: #ffffff;
   --text: #1c1917;
   --muted: #57534e;
-  --accent: #1e40af;
-  --accent-dark: #1e3a8a;
-  --accent-light: #dbeafe;
+  --accent: #9b1c1c;
+  --accent-dark: #7f1d1d;
+  --accent-light: #fee2e2;
   --border: #e7e5e4;
-  --link: #1d4ed8;
-  --link-hover: #1e3a8a;
+  --link: #b91c1c;
+  --link-hover: #7f1d1d;
 }
 
 html { scroll-behavior: smooth; }
