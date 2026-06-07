@@ -12,9 +12,9 @@
   --text: #1c1917;
   --muted: #57534e;
   --accent: #1e40af;
+  --accent-dark: #1e3a8a;
   --accent-light: #dbeafe;
   --border: #e7e5e4;
-  --nav-link: #44403c;
   --link: #1d4ed8;
   --link-hover: #1e3a8a;
 }
@@ -30,75 +30,73 @@ body {
   min-height: 100vh;
 }
 
-/* ── HOMEPAGE LAYOUT ──────────────────────────────────── */
+/* ── HOMEPAGE ─────────────────────────────────────────── */
 
 .site-wrapper {
-  max-width: 860px;
+  max-width: 700px;
   margin: 0 auto;
   padding: 0 24px;
+  text-align: center;
 }
 
 .home-hero {
-  display: flex;
-  align-items: center;
-  gap: 52px;
-  padding: 72px 0 52px;
+  padding: 80px 0 48px;
   border-bottom: 1px solid var(--border);
 }
 
 .home-hero .avatar {
-  flex-shrink: 0;
-  width: 160px;
-  height: 160px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   object-fit: cover;
   border: 3px solid var(--border);
-  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+  margin: 0 auto 24px;
+  display: block;
 }
 
-.home-hero-text h1 {
+.home-hero h1 {
   font-family: 'Lora', serif;
   font-size: 2.4rem;
   font-weight: 600;
   color: var(--text);
   line-height: 1.2;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 
-.home-hero-text .tagline {
+.home-hero .tagline {
   font-size: 1.05rem;
   color: var(--muted);
-  margin-bottom: 24px;
-  font-weight: 400;
+  margin-bottom: 32px;
 }
 
+/* Social pills */
 .social-row {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  align-items: center;
+  justify-content: center;
 }
 
 .social-row a {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   gap: 6px;
-  color: var(--nav-link);
+  color: var(--muted);
   text-decoration: none;
-  font-size: 0.85rem;
+  font-size: 0.84rem;
   font-weight: 500;
-  padding: 6px 13px;
+  padding: 6px 14px;
   border-radius: 999px;
   border: 1px solid var(--border);
   background: var(--surface);
-  transition: background 0.15s, color 0.15s, border-color 0.15s, box-shadow 0.15s;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
 }
 
 .social-row a:hover {
   background: var(--accent-light);
   color: var(--accent);
-  border-color: var(--accent-light);
-  box-shadow: 0 2px 8px rgba(30,64,175,0.08);
+  border-color: #93c5fd;
 }
 
 .social-row svg {
@@ -107,38 +105,40 @@ body {
   flex-shrink: 0;
 }
 
-/* ── NAVIGATION ──────────────────────────────────────── */
+/* ── HOMEPAGE NAV ─────────────────────────────────────── */
 
 .site-nav {
-  padding: 28px 0;
+  padding: 36px 0;
   border-bottom: 1px solid var(--border);
 }
 
 .site-nav ul {
   list-style: none;
   display: flex;
-  gap: 10px;
+  gap: 12px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .site-nav a {
   display: inline-block;
-  padding: 9px 22px;
-  color: var(--accent);
+  padding: 10px 28px;
+  color: #fff;
   text-decoration: none;
-  font-size: 0.92rem;
+  font-size: 0.95rem;
   font-weight: 600;
   border-radius: 8px;
-  border: 1.5px solid var(--accent);
-  background: var(--accent-light);
-  transition: background 0.15s, color 0.15s, box-shadow 0.15s;
-  letter-spacing: 0.01em;
+  background: var(--accent);
+  border: 2px solid var(--accent);
+  transition: background 0.15s, box-shadow 0.15s, transform 0.1s;
+  letter-spacing: 0.02em;
 }
 
 .site-nav a:hover {
-  background: var(--accent);
-  color: #fff;
-  box-shadow: 0 3px 12px rgba(30,64,175,0.18);
+  background: var(--accent-dark);
+  border-color: var(--accent-dark);
+  box-shadow: 0 4px 16px rgba(30,64,175,0.25);
+  transform: translateY(-1px);
 }
 
 /* ── FOOTER ──────────────────────────────────────────── */
@@ -152,17 +152,13 @@ body {
   margin-top: 8px;
 }
 
-.site-footer a {
-  color: var(--muted);
-  text-decoration: none;
-}
-
+.site-footer a { color: var(--muted); text-decoration: none; }
 .site-footer a:hover { color: var(--accent); }
 
-/* ── PAGE LAYOUT (about, research, resources) ──────── */
+/* ── INNER PAGE LAYOUT ───────────────────────────────── */
 
 .page-wrapper {
-  max-width: 860px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 0 24px;
 }
@@ -172,12 +168,11 @@ body {
   border-bottom: 1px solid var(--border);
 }
 
+/* fade hint for scroll overflow on mobile */
 .page-topbar-outer::after {
   content: '';
   position: absolute;
-  right: 0;
-  top: 0;
-  bottom: 0;
+  right: 0; top: 0; bottom: 0;
   width: 40px;
   background: linear-gradient(to right, transparent, var(--bg));
   pointer-events: none;
@@ -186,8 +181,8 @@ body {
 .page-topbar {
   display: flex;
   align-items: center;
-  gap: 4px;
-  padding: 20px 0;
+  gap: 6px;
+  padding: 16px 0;
   flex-wrap: nowrap;
   overflow-x: auto;
   scrollbar-width: none;
@@ -199,28 +194,34 @@ body {
 .page-topbar .site-name {
   font-family: 'Lora', serif;
   font-weight: 600;
-  font-size: 1.05rem;
+  font-size: 1rem;
   color: var(--text);
   text-decoration: none;
-  margin-right: 16px;
+  margin-right: 12px;
   flex-shrink: 0;
+  white-space: nowrap;
 }
 
 .page-topbar a.nav-link {
   display: inline-block;
-  padding: 6px 14px;
-  color: var(--nav-link);
+  padding: 6px 16px;
+  color: var(--accent);
   text-decoration: none;
-  font-size: 0.88rem;
-  font-weight: 500;
+  font-size: 0.85rem;
+  font-weight: 600;
   border-radius: 6px;
+  border: 1.5px solid var(--accent);
+  white-space: nowrap;
+  flex-shrink: 0;
   transition: background 0.15s, color 0.15s;
 }
 
 .page-topbar a.nav-link:hover {
-  background: var(--accent-light);
-  color: var(--accent);
+  background: var(--accent);
+  color: #fff;
 }
+
+/* ── PAGE CONTENT ────────────────────────────────────── */
 
 .page-content {
   padding: 52px 0 80px;
@@ -230,7 +231,7 @@ body {
   font-family: 'Lora', serif;
   font-size: 2rem;
   font-weight: 600;
-  margin-bottom: 32px;
+  margin-bottom: 28px;
   color: var(--text);
   padding-bottom: 16px;
   border-bottom: 2px solid var(--accent-light);
@@ -238,30 +239,27 @@ body {
 
 .page-content h2 {
   font-family: 'Lora', serif;
-  font-size: 1.35rem;
+  font-size: 1.3rem;
   font-weight: 600;
   color: var(--text);
   margin-top: 48px;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
   padding-left: 14px;
   border-left: 3px solid var(--accent);
 }
 
 .page-content h3 {
-  font-size: 1.05rem;
+  font-size: 1rem;
   font-weight: 600;
   color: var(--text);
-  margin-top: 28px;
-  margin-bottom: 8px;
+  margin-top: 24px;
+  margin-bottom: 6px;
 }
 
 .page-content p {
   color: var(--muted);
   margin-bottom: 16px;
-  max-width: 700px;
 }
-
-/* ── LIST ITEMS (publications etc.) ────────────────── */
 
 .page-content ul {
   list-style: none;
@@ -277,7 +275,6 @@ body {
   margin-bottom: 10px;
   color: var(--muted);
   transition: box-shadow 0.15s;
-  max-width: 100%;
 }
 
 .page-content ul li:hover {
@@ -292,7 +289,6 @@ body {
 .page-content ol li {
   color: var(--muted);
   margin-bottom: 14px;
-  max-width: 700px;
 }
 
 .page-content a {
@@ -308,41 +304,36 @@ body {
 }
 
 .page-content strong { color: var(--text); font-weight: 600; }
-.page-content em { font-style: italic; color: var(--text); }
+.page-content em { font-style: italic; }
 
+/* Profile image on about page — centered, circular */
 .page-content img {
-  max-width: 180px;
-  border-radius: 50%;
-  margin: 0 0 24px;
   display: block;
+  margin: 0 auto 28px;
+  max-width: 160px;
+  border-radius: 50%;
   border: 3px solid var(--border);
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
 }
 
+/* xkcd comic — wider, not circular */
 .page-content img[alt="xkcd on gravitational waves"] {
   border-radius: 8px;
-  max-width: 460px;
-  border: none;
+  max-width: 480px;
+  border: 1px solid var(--border);
+  box-shadow: none;
 }
 
 /* ── RESPONSIVE ─────────────────────────────────────── */
 
-@media (max-width: 620px) {
-  .home-hero {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 24px;
-    padding: 48px 0 36px;
-  }
-
-  .home-hero .avatar {
-    width: 100px;
-    height: 100px;
-  }
-
-  .home-hero-text h1 { font-size: 1.8rem; }
+@media (max-width: 560px) {
+  .home-hero { padding: 56px 0 40px; }
+  .home-hero h1 { font-size: 1.9rem; }
+  .home-hero .avatar { width: 110px; height: 110px; }
+  .site-nav a { padding: 9px 20px; font-size: 0.9rem; }
 }
 
-/* ── ANIMATIONS ─────────────────────────────────────── */
+/* ── ANIMATION ──────────────────────────────────────── */
 
 @keyframes fadeUp {
   from { opacity: 0; transform: translateY(10px); }
