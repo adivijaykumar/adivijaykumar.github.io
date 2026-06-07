@@ -2,13 +2,15 @@
 layout: default
 ---
 <div class="page-wrapper">
-  <nav class="page-topbar">
-    <a class="site-name" href="/">{{ site.name }}</a>
-    <a class="nav-link" href="/about/">About</a>
-    <a class="nav-link" href="/research/">Research</a>
-    <a class="nav-link" href="{{ site.cv_url }}">CV</a>
-    <a class="nav-link" href="/resources/">Resources</a>
-  </nav>
+  <div class="page-topbar-outer">
+    <nav class="page-topbar">
+      <a class="site-name" href="/">{{ site.name }}</a>
+      <a class="nav-link" href="/about/">About</a>
+      <a class="nav-link" href="/research/">Research</a>
+      <a class="nav-link" href="{{ site.cv_url }}">CV</a>
+      <a class="nav-link" href="/resources/">Resources</a>
+    </nav>
+  </div>
   <div class="page-content">
     {{ content }}
   </div>

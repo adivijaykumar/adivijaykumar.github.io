@@ -75,7 +75,7 @@ body {
 .social-row {
   display: flex;
   flex-wrap: wrap;
-  gap: 14px;
+  gap: 8px;
   align-items: center;
 }
 
@@ -83,49 +83,62 @@ body {
   display: flex;
   align-items: center;
   gap: 6px;
-  color: var(--muted);
+  color: var(--nav-link);
   text-decoration: none;
-  font-size: 0.88rem;
+  font-size: 0.85rem;
   font-weight: 500;
-  transition: color 0.15s;
+  padding: 6px 13px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  transition: background 0.15s, color 0.15s, border-color 0.15s, box-shadow 0.15s;
 }
 
-.social-row a:hover { color: var(--accent); }
+.social-row a:hover {
+  background: var(--accent-light);
+  color: var(--accent);
+  border-color: var(--accent-light);
+  box-shadow: 0 2px 8px rgba(30,64,175,0.08);
+}
 
 .social-row svg {
-  width: 17px;
-  height: 17px;
+  width: 15px;
+  height: 15px;
   flex-shrink: 0;
 }
 
 /* ── NAVIGATION ──────────────────────────────────────── */
 
 .site-nav {
-  padding: 24px 0;
+  padding: 28px 0;
   border-bottom: 1px solid var(--border);
 }
 
 .site-nav ul {
   list-style: none;
   display: flex;
-  gap: 4px;
+  gap: 10px;
   flex-wrap: wrap;
 }
 
 .site-nav a {
   display: inline-block;
-  padding: 7px 16px;
-  color: var(--nav-link);
+  padding: 9px 22px;
+  color: var(--accent);
   text-decoration: none;
-  font-size: 0.9rem;
-  font-weight: 500;
-  border-radius: 6px;
-  transition: background 0.15s, color 0.15s;
+  font-size: 0.92rem;
+  font-weight: 600;
+  border-radius: 8px;
+  border: 1.5px solid var(--accent);
+  background: var(--accent-light);
+  transition: background 0.15s, color 0.15s, box-shadow 0.15s;
+  letter-spacing: 0.01em;
 }
 
 .site-nav a:hover {
-  background: var(--accent-light);
-  color: var(--accent);
+  background: var(--accent);
+  color: #fff;
+  box-shadow: 0 3px 12px rgba(30,64,175,0.18);
 }
 
 /* ── FOOTER ──────────────────────────────────────────── */
@@ -154,15 +167,34 @@ body {
   padding: 0 24px;
 }
 
+.page-topbar-outer {
+  position: relative;
+  border-bottom: 1px solid var(--border);
+}
+
+.page-topbar-outer::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 40px;
+  background: linear-gradient(to right, transparent, var(--bg));
+  pointer-events: none;
+}
+
 .page-topbar {
   display: flex;
   align-items: center;
   gap: 4px;
   padding: 20px 0;
-  border-bottom: 1px solid var(--border);
   flex-wrap: nowrap;
   overflow-x: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
+
+.page-topbar::-webkit-scrollbar { display: none; }
 
 .page-topbar .site-name {
   font-family: 'Lora', serif;
