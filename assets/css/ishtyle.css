@@ -15,7 +15,7 @@
   --accent-dark: #7f1d1d;
   --accent-light: #fee2e2;
   --border: #e7e5e4;
-  --link: #b91c1c;
+  --link: #9b1c1c;
   --link-hover: #7f1d1d;
 }
 
@@ -185,28 +185,28 @@ body {
 .page-topbar a.nav-link {
   white-space: nowrap;
   flex-shrink: 0;
-  line-height: 1.5;
-  padding: 6px 0;
+  font-size: 0.95rem;
+  line-height: 1;
   text-decoration: none;
 }
 
 .page-topbar .site-name {
   font-family: 'Lora', serif;
-  font-weight: 600;
-  font-size: 1rem;
+  font-weight: 700;
+  font-size: 1.2rem;
   color: var(--text);
 }
 
 .page-topbar a.nav-link {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
   color: var(--accent);
-  font-size: 0.9rem;
   font-weight: 600;
   border-bottom: 2px solid transparent;
   transition: border-color 0.15s, color 0.15s;
   position: relative;
-  padding-left: 18px;
-  margin-left: 18px;
+  padding-left: 20px;
+  margin-left: 20px;
 }
 
 .page-topbar a.nav-link::before {
@@ -215,7 +215,7 @@ body {
   left: 0;
   top: 50%;
   transform: translateY(-50%);
-  height: 1.1em;
+  height: 16px;
   width: 1.5px;
   background: var(--border);
 }
