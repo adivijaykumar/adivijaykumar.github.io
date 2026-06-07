@@ -204,9 +204,20 @@ body {
   font-weight: 600;
   border-bottom: 2px solid transparent;
   transition: border-color 0.15s, color 0.15s;
-  border-left: 1.5px solid var(--border);
+  position: relative;
   padding-left: 18px;
   margin-left: 18px;
+}
+
+.page-topbar a.nav-link::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 1.1em;
+  width: 1.5px;
+  background: var(--border);
 }
 
 .page-topbar a.nav-link:hover {
