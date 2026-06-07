@@ -40,7 +40,7 @@ body {
 }
 
 .home-hero {
-  padding: 72px 0 40px;
+  padding: 48px 0 28px;
   border-bottom: 1px solid var(--border);
 }
 
@@ -51,7 +51,7 @@ body {
   object-fit: cover;
   border: 3px solid var(--border);
   box-shadow: 0 4px 28px rgba(0,0,0,0.12);
-  margin: 0 auto 28px;
+  margin: 0 auto 20px;
   display: block;
 }
 
@@ -61,7 +61,7 @@ body {
   font-weight: 600;
   color: var(--text);
   line-height: 1.2;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
 }
 
 .home-hero .tagline {
@@ -75,7 +75,7 @@ body {
   flex-wrap: wrap;
   gap: 4px;
   justify-content: center;
-  padding: 28px 0 8px;
+  padding: 16px 0 4px;
 }
 
 .social-row a {
@@ -101,7 +101,7 @@ body {
 /* ── HOMEPAGE NAV ─────────────────────────────────────── */
 
 .site-nav {
-  padding: 44px 0 40px;
+  padding: 28px 0 24px;
   border-bottom: 1px solid var(--border);
 }
 
