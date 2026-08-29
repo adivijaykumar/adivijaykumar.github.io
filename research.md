@@ -11,31 +11,75 @@ layout: page
 
 I work on physics, astrophysics and data analysis aspects of gravitational waves. I also try to dabble in scientific computing now and then. My most updated CV can be found [here](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/adivijaykumar/resume/master/Vijaykumar_CV_with_pubs.pdf).
 
-If you have questions/comments about my work or the field in general, please do not hesitate to contact me at aditya [at] utoronto [dot] ca.
+If you have questions/comments about my work or the field in general, please do not hesitate to contact me at avijaykumar [at] uchicago [dot] edu.
 
 The most updated list of my papers can be found on [NASA ADS](https://ui.adsabs.harvard.edu/public-libraries/LqJDfKCTTdeuL_Inb7SwVw), [arXiv](https://arxiv.org/a/vijaykumar_a_1.html). They are also pasted below. I have done a twitter thread accessible to non-experts for some of my released papers, linked below.
 
 ## Short Authorlist Papers
 
-- Avinash Tiwari, et al., (including **Aditya Vijaykumar**)
-  *Profiling Dark Matter Spikes with Gravitational Waves from Accelerated Binaries*
-  [arXiv](https://arxiv.org/abs/2508.03803)
+- Avinash Tiwari, **Aditya Vijaykumar**, Shasvath J. Kapadia, Sourav Chatterjee
+	*Identifying and characterizing extragalactic circum-CBC exoplanets with future gravitational-wave detectors*
+	[arXiv](https://arxiv.org/abs/2607.09658), [Astrobites Article](https://astrobites.org/2026/07/22/extragalactic-exoplanets-gws/).
 
-- Andris Doroszmai, Isobel Romero-Shaw, **Aditya Vijaykumar**, et al.,
-  *Hierarchical Triples vs. Globular Clusters: Binary black hole merger eccentricity distributions compete and evolve with redshift*
-  [arXiv](https://arxiv.org/abs/2507.23212)
+- Avinash Tiwari, Shasvath J. Kapadia, **Aditya Vijaykumar**, Sourav Chatterjee
+	*Periodic line-of-sight velocity-driven modulations to gravitational waves emitted by compact binaries in Keplerian outer orbits*
+	[arXiv](https://arxiv.org/abs/2607.09644).
+
+- **Aditya Vijaykumar**, Reed Essick
+	*Semianalytic Sensitivity Estimates for Out-of-Bank Gravitational-Wave Signals*
+	[arXiv](https://arxiv.org/abs/2606.14045).
+
+- Maya Fishbach *et al.* (including **Aditya Vijaykumar**)
+	*Implications of Low Neutron Star Merger Rates for Gamma-Ray Bursts, r-process Production, and Galactic Double Neutron Stars*
+	[arXiv](https://arxiv.org/abs/2604.05059), [ApJL](https://doi.org/10.3847/2041-8213/ae8756).
+
+- Neha Sharma, **Aditya Vijaykumar**, Prayush Kumar
+	*Rapid inference of gravitational-wave signals in the time domain using a heterodyned likelihood*
+	[arXiv](https://arxiv.org/abs/2601.11239), [Phys. Rev. D](https://doi.org/10.1103/mjz9-41zq).
+
+- **Aditya Vijaykumar**, Amanda M. Farah, Maya Fishbach
+	*The maximum mass ratio of hierarchical binary black hole mergers may cause the q-&chi;<sub>eff</sub> correlation*
+	[arXiv](https://arxiv.org/abs/2601.03457), [ApJL](https://doi.org/10.3847/2041-8213/ae4878).
+
+- Amanda M. Farah, **Aditya Vijaykumar**, Maya Fishbach
+	*The steep redshift evolution of the hierarchical binary black hole merger rate may cause the z-&chi;<sub>eff</sub> correlation*
+	[arXiv](https://arxiv.org/abs/2601.03456), [ApJL](https://doi.org/10.3847/2041-8213/ae4e19).
+
+- N.V. Krishnendu, Tamara Evstafyeva, **Aditya Vijaykumar**, William E. East, *et al.*
+	*Implications of GW241011 for rotating exotic compact objects*
+	[arXiv](https://arxiv.org/abs/2511.17341), [Phys. Rev. Lett.](https://doi.org/10.1103/29y5-nx9y).
+
+- Madison VanWyngarden, Maya Fishbach, **Aditya Vijaykumar**, Alexandra G. Guerrero, Daniel E. Holz
+	*How Low Can You Go: Constraining the Effects of Catalog Incompleteness on Dark Siren Cosmology*
+	[arXiv](https://arxiv.org/abs/2511.04786), [ApJ](https://doi.org/10.3847/1538-4357/ae8c3d).
+
+- Hui Tong *et al.* (including **Aditya Vijaykumar**)
+	*Evidence of the pair instability gap in the distribution of black hole masses*
+	[arXiv](https://arxiv.org/abs/2509.04151), [Nature](https://doi.org/10.1038/s41586-026-10359-0).
+
+- Colm Talbot *et al.* (including **Aditya Vijaykumar**)
+	*Inference with finite time series II: the window strikes back*
+	[arXiv](https://arxiv.org/abs/2508.11091), [CQG](https://doi.org/10.1088/1361-6382/ae1ac7).
+
+- Avinash Tiwari, Prolay Chanda, Shasvath J. Kapadia, Susmita Adhikari, **Aditya Vijaykumar**, Basudeb Dasgupta
+	*Profiling Dark Matter Spikes with Gravitational Waves from Accelerated Binaries*
+	[arXiv](https://arxiv.org/abs/2508.03803). Submitted to CQG.
+
+- Andris Doroszmai, Isobel Romero-Shaw, **Aditya Vijaykumar**, Silvia Toonen, *et al.*
+	*Hierarchical Triples vs. Globular Clusters: Binary black hole merger eccentricity distributions compete and evolve with redshift*
+	[arXiv](https://arxiv.org/abs/2507.23212), [MNRAS](https://doi.org/10.1093/mnras/staf1938).
 
 - Avinash Tiwari, **Aditya Vijaykumar**, Shasvath J. Kapadia, Shrobana Ghosh, Alex B. Nielsen
-   *A pipeline to search for signatures of line-of-sight acceleration in gravitational wave signals produced by compact binary coalescences*
-   [arXiv](https://arxiv.org/abs/2506.22272).
+	*A pipeline to search for signatures of line-of-sight acceleration in gravitational wave signals produced by compact binary coalescences*
+	[arXiv](https://arxiv.org/abs/2506.22272), [Phys. Rev. D](https://doi.org/10.1103/qtw8-3g56).
 
 - Kanchan Soni, **Aditya Vijaykumar**, Sanjit Mitra
 	*Assessing the potential of LIGO-India in resolving the Hubble Tension*
-  	[arXiv](https://arxiv.org/abs/2409.11361).
+	[arXiv](https://arxiv.org/abs/2409.11361), [CQG](https://doi.org/10.1088/1361-6382/ae6f64).
 
-- Avinash Tiwari, **Aditya Vijaykumar**, Shasvath J. Kapadia, Sourav Chatterjee
+- Avinash Tiwari, **Aditya Vijaykumar**, Shasvath J. Kapadia, Sourav Chatterjee, Giacomo Fragione
 	*Profiling stellar environments of gravitational wave sources*
-  	[arXiv](https://arxiv.org/abs/2407.15117).
+	[arXiv](https://arxiv.org/abs/2407.15117), [Phys. Rev. D](https://journals.aps.org/prd/abstract/10.1103/gspl-m478).
 
 - Alexandra G. Hanselman, **Aditya Vijaykumar**, Maya Fishbach, Daniel E. Holz  
 	*Gravitational-wave dark siren cosmology systematics from galaxy weighting*.  
@@ -71,7 +115,7 @@ The most updated list of my papers can be found on [NASA ADS](https://ui.adsabs.
 
 - Adhrit Ravichandran, **Aditya Vijaykumar**, Shasvath J. Kapadia, Prayush Kumar  
 	*Rapid Identification and Classification of Eccentric Gravitational Wave Inspirals with Machine Learning*.  
-	[arXiv](https://arxiv.org/abs/2302.00666).
+	[arXiv](https://arxiv.org/abs/2302.00666). Submitted to PRD.
 
 - Srashti Goyal, **Aditya Vijaykumar**, Jose María Ezquiaga, Miguel Zumalacárregui  
 	*Probing lens-induced gravitational-wave birefringence as a test of general relativity*.  
@@ -83,7 +127,7 @@ The most updated list of my papers can be found on [NASA ADS](https://ui.adsabs.
 
 - **Aditya Vijaykumar**, Shasvath J. Kapadia, Parameswaran Ajith  
 	*Can a binary neutron star merger in the vicinity of a supermassive black hole enable a detection of a post-merger gravitational wave signal?*.  
-	[arXiv](https://arxiv.org/abs/2202.08673), [MNRAS](https://doi.org/10.1093/mnras/stac1131).
+	[arXiv](https://arxiv.org/abs/2202.08673), [MNRAS](https://academic.oup.com/mnras/article/513/3/3577/6573885).
 
 - **Aditya Vijaykumar**, Ajit Kumar Mehta, Apratim Ganguly 
 	*Detection and parameter estimation challenges of Type-II lensed binary black hole signals*.  
@@ -108,9 +152,37 @@ The most updated list of my papers can be found on [NASA ADS](https://ui.adsabs.
 
 ## Long Authorlist Papers with Direct and Substantial Contribution
 
+- Abac *et al.* (LIGO Scientific, Virgo, and KAGRA Collaborations, including **Aditya Vijaykumar**)  
+	*GWTC-5.0: Population Properties of Merging Compact Binaries*.  
+	[arXiv](https://ui.adsabs.harvard.edu/#abs/2026arXiv260527226T/abstract).
+
+- Abac *et al.* (LIGO Scientific, Virgo, and KAGRA Collaborations, including **Aditya Vijaykumar**)  
+	*GWTC-5.0: Observations from the Second Part of the Fourth LIGO-Virgo-KAGRA Observing Run and Updates to the Gravitational-Wave Transient Catalog*.  
+	[arXiv](https://ui.adsabs.harvard.edu/#abs/2026arXiv260527225T/abstract).
+
+- Abac *et al.* (LIGO Scientific, Virgo, and KAGRA Collaborations, including **Aditya Vijaykumar**)  
+	*GW241011 and GW241110: Exploring Binary Formation and Fundamental Physics with Asymmetric, High-spin Black Hole Coalescences*.  
+	[arXiv](https://arxiv.org/abs/2510.26931), [ApJL](https://doi.org/10.3847/2041-8213/ae0d54).
+
+- Abac *et al.* (LIGO Scientific, Virgo, and KAGRA Collaborations, including **Aditya Vijaykumar**)  
+	*Upper Limits on the Isotropic Gravitational-Wave Background from the first part of LIGO, Virgo, and KAGRA's fourth Observing Run*.  
+	[arXiv](https://arxiv.org/abs/2508.20721), [Phys. Rev. D](https://doi.org/10.1103/wq57-sjt2).
+
+- Abac *et al.* (LIGO Scientific, Virgo, and KAGRA Collaborations, including **Aditya Vijaykumar** as **Paper Writing Team Lead**)  
+	*GWTC-4.0: Population Properties of Merging Compact Binaries*.  
+	[arXiv](https://arxiv.org/abs/2508.18083), [ApJL](https://doi.org/10.3847/2041-8213/ae771e).
+
+- Abac *et al.* (LIGO Scientific, Virgo, and KAGRA Collaborations, including **Aditya Vijaykumar**)  
+	*GWTC-4.0: Updating the Gravitational-Wave Transient Catalog with Observations from the First Part of the Fourth LIGO-Virgo-KAGRA Observing Run*.  
+	[arXiv](https://arxiv.org/abs/2508.18082), [ApJL](https://doi.org/10.3847/2041-8213/ae2c74).
+
+- Abac *et al.* (LIGO Scientific, Virgo, and KAGRA Collaborations, including **Aditya Vijaykumar**)  
+	*GW231123: a Binary Black Hole Merger with Total Mass 190-265 M<sub>&#8857;</sub>*.  
+	[arXiv](https://arxiv.org/abs/2507.08219), [ApJL](https://doi.org/10.3847/2041-8213/ae0c9c).
+
 - Abbott *et al.* (LIGO Scientific and Virgo Collaborations, including **Aditya Vijaykumar**)  
-    *Tests of General Relativity with GWTC-3*.  
-    [arXiv](https://arxiv.org/abs/2112.06861).
+	*Tests of General Relativity with GWTC-3*.  
+	[arXiv](https://arxiv.org/abs/2112.06861), [Phys. Rev. D](https://doi.org/10.1103/PhysRevD.112.084080).
 
 - Abbott *et al.* (LIGO Scientific and Virgo Collaborations, including **Aditya Vijaykumar**)  
     *GWTC-2: Compact Binary Coalescences Observed by LIGO and Virgo During the First Half of the Third Observing Run*.  
@@ -124,4 +196,4 @@ The most updated list of my papers can be found on [NASA ADS](https://ui.adsabs.
 
 - P. Virtanen *et al.* (including **Aditya Vijaykumar** as *SciPy 1.0 Contributor*)  
  	*SciPy 1.0--Fundamental Algorithms for Scientific Computing in Python*.  
-	[arXiv](https://arxiv.org/abs/1907.10121), [Nat. Methods](https://www.nature.com/articles/s41592-019-0686-2).
+	[arXiv](https://arxiv.org/abs/1907.10121), [Nat. Methods](https://doi.org/10.1038/s41592-019-0686-2).

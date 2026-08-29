@@ -7,11 +7,13 @@ layout: page
 	
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-My name is Aditya Vijaykumar. To reach out digitally, use `aditya [at] utoronto [dot] ca`. My latest CV [can be found here](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/adivijaykumar/resume/master/Vijaykumar_CV_with_pubs.pdf).
+My name is Aditya Vijaykumar. To reach out digitally, use `avijaykumar [at] uchicago [dot] edu`. My latest CV [can be found here](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/adivijaykumar/resume/master/Vijaykumar_CV_with_pubs.pdf).
 
 1. I work on various physics and astrophysics aspects of gravitational waves. My work involves both theory and computation, as well as an understanding of experimental data from gravitational-wave detectors. More information about my research [can be found here](https://adivijaykumar.github.io/research/).
 
-1. I currently reside in Toronto, where I am a postdoctoral fellow at the [Canadian Institute for Theoretical Astrophysics](https://www.cita.utoronto.ca/) (CITA).
+1. I currently reside in Chicago, where I am an Eric and Wendy Schmidt AI in Science Fellow and KICP Associate Fellow at the [Kavli Institute for Cosmological Physics](https://kicp.uchicago.edu/) (KICP), The University of Chicago.
+
+1. Before moving to Chicago, I was a CITA Postdoctoral Fellow at the [Canadian Institute for Theoretical Astrophysics](https://www.cita.utoronto.ca/) (CITA), Toronto.
 
 1. I did my PhD in Physics at the [International Centre for Theoretical Sciences](https://icts.res.in/) (ICTS-TIFR) in the [Astrophysical Relativity](https://www.icts.res.in/research/astrorel) group mentored by Prof. [Ajith Parameswaran]([url](https://home.icts.res.in/~ajith/Home.html)).
    * My PhD thesis titled _Probing gravity, astrophysics, and cosmology with gravitational waves_ was conferred the **2024 Justice Oak Award for Outstanding thesis in Astronomy** by the **Astronomical Society of India (ASI)**, as well as the **2024 V. V. Narlikar Best Thesis Award** by the **Indian Association for General Relativity and Gravitation (IAGRG)**.
