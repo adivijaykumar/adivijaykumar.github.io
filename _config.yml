@@ -1,9 +1,9 @@
 # main text of home
 name: Aditya Vijaykumar
-bio: CITA Postdoctoral Fellow working on Gravitational Waves
+bio: Schmidt AI in Science Fellow, KICP, The University of Chicago
 
 # twitter summary info
-description: Aditya Vijaykumar - CITA Postdoctoral Fellow working on Gravitational Waves
+description: Aditya Vijaykumar - Schmidt AI in Science Fellow, KICP, The University of Chicago
 
 # if it's an external image, update below for true
 # better with square images
@@ -35,7 +35,7 @@ disqus:
   categories: # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-email: aditya@utoronto.ca
+email: avijaykumar@uchicago.edu
 facebook: adivijaykumar
 twitter: alsogoesbyV
 instagram: adivijaykumar
@@ -66,7 +66,7 @@ scholar: cLlRcPYAAAAJ
 authors:
   johndoe:
     name: Aditya Vijaykumar
-    bio: CITA Postdoctoral Fellow working on Gravitational Waves
+    bio: Schmidt AI in Science Fellow, KICP, The University of Chicago
     external-image: false
     picture: home1.jpg
     twitter: adivijaykumar
