@@ -1,0 +1,23 @@
+[workspace]
+name = "adivijaykumar-github-io"
+channels = ["conda-forge"]
+platforms = ["linux-64", "osx-arm64", "osx-64"]
+
+[dependencies]
+ruby = "3.3.*"
+c-compiler = "*"
+cxx-compiler = "*"
+make = "*"
+pkg-config = "*"
+
+[activation.env]
+# Keep gems inside the repo (vendor/ is already excluded by _config.yml)
+BUNDLE_PATH = "$PIXI_PROJECT_ROOT/vendor/bundle"
+
+[tasks]
+install = "bundle install"
+serve = { cmd = "bundle exec jekyll serve --livereload", depends-on = ["install"] }
+build = { cmd = "bundle exec jekyll build", depends-on = ["install"] }
+check-links = { cmd = "bundle exec jekyll build && bundle exec htmlproofer _site --disable-external --ignore-missing-alt", depends-on = ["install", "update-cv"] }
+# Pull the latest CV into the site for local previews (CI fetches it automatically)
+update-cv = "curl -fsSL -o Vijaykumar_CV.pdf https://raw.githubusercontent.com/adivijaykumar/resume/master/Vijaykumar_CV_with_pubs.pdf"

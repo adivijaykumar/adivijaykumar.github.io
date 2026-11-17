@@ -1,128 +1,51 @@
-# main text of home
+# --- Site identity ---------------------------------------------------------
 name: Aditya Vijaykumar
+title: Aditya Vijaykumar
 bio: Schmidt AI in Science Fellow, KICP, The University of Chicago
-
-# twitter summary info
-description: Aditya Vijaykumar - Schmidt AI in Science Fellow, KICP, The University of Chicago
-
-# if it's an external image, update below for true
-# better with square images
-external-image: false
-picture: home1.jpg
-
-# If you want to include your resume, set to true
-# and specify source (external or local).
-resume: false
-resume-external: false
-resume-url: https://google.com/?q=my+resume
+description: Schmidt AI in Science Fellow at KICP, The University of Chicago, working on gravitational waves
 
 url: https://adivijaykumar.github.io
-cv_url: https://docs.google.com/viewer?url=https://raw.githubusercontent.com/adivijaykumar/resume/master/Vijaykumar_CV_with_pubs.pdf
-# your url: https://USERNAME.github.io
-
+baseurl: ""
 permalink: /:title/
 
-# To enable google analytics, supply your token below
-analytics-google: 'UA-97624097-1'
+# CV: a copy of the PDF lives in this repo. Refresh it with `pixi run update-cv`.
+cv_url: /Vijaykumar_CV.pdf
 
-# To enable piwik tracking, supply your url & site ID below
-# analytics-piwik-url: 'piwik.my-host.com'
-# analytics-piwik-id: 1
+# Analytics: add a GA4 measurement ID to turn on Google Analytics.
+# analytics-google: G-XXXXXXXXXX
 
-# if you don't want comments in your posts, leave categories empty
-disqus:
-  shortname: mydisqus # enter this from your disqus account
-  categories: # only show disqus for posts that have these categories
+# --- Link previews & search (jekyll-seo-tag) -------------------------------
+author:
+  name: Aditya Vijaykumar
+  twitter: alsogoesbyV
 
-# if you don't have any of social below, comment the line
-email: avijaykumar@uchicago.edu
-facebook: adivijaykumar
-twitter: alsogoesbyV
-instagram: adivijaykumar
-# pinterest: mypinterest
-# linkedin: mylinkedin
-# youtube: myyoutube
-# spotify: myspotify
-github: adivijaykumar
-gitlab: aditya.vijaykumar
-# lastfm: mylastfm
-# stackoverflow: 7044681/mystackoverflow
-# quora: userquora
-# reddit: username
-# medium: medium
-# vimeo: myvimeo
-# lanyrd: mylanyrd
+twitter:
+  username: alsogoesbyV
+  card: summary
 
-# if you don't have any scientific social links below, comment the line
-scholar: cLlRcPYAAAAJ
-# researchgate: myresearchgate
-# mendeley: mymendeley
-# pubmed: mypubmed
-# orcid: myorcid
-# impactstory: myimpactstory
-# figshare: myfigshare
-# slideshare: myslideshare
+social:
+  name: Aditya Vijaykumar
+  links:
+    - https://github.com/adivijaykumar
+    - https://scholar.google.com/citations?user=cLlRcPYAAAAJ
+    - https://twitter.com/alsogoesbyV
+    - https://www.instagram.com/adivijaykumar
 
-authors:
-  johndoe:
-    name: Aditya Vijaykumar
-    bio: Schmidt AI in Science Fellow, KICP, The University of Chicago
-    external-image: false
-    picture: home1.jpg
-    twitter: adivijaykumar
-
-# do you want a larger site? change the option below
-# options: [normal, large] | default: normal
-# normal = 560px / large = 810px
-width: large
-
-# if you do/don't need pagination, toggle 'enabled' between true/false below
-pagination:
-  enabled: false
-  sort_reverse: true # display recent posts first
-  title: ":title" # Changing this will mess up the header display logic
-  per_page: 5
-  permalink: "/:num/" # pagination link that will be appended
-
-# if you don't need projects, comment the *projects* configs below
-#projects: true
-#research: true
-# if you don't need "about" or "blog", comment them out below
-about: true
-# blog: true
-research: true
-#publications: true
-resources: true
-
-
-# do you want to show the "read time" of the posts?
-read-time: false
-
-# do you want to show the "tags" inside the posts?
-show-tags: true
-
-# related posts inside a post?
-related: false
-
-# Display links for next and previous posts for the specified categories
-post-advance-links: 
-
-# show author block at the end of a post ?
-show-author: false
-
-# do you want some animations?
-animation: true
-
-# add default values to specific pages or layouts
 defaults:
   - scope:
-      path: "" # an empty string here means all files in the project
-      layout: "post"
+      path: ""
     values:
-      # setting all post to not hidden by default,
-      # can be overridden in the front matter for a specific post
-      hidden: false
+      image: /assets/images/profile.jpg   # preview image when a page is shared
 
+# --- Contact & profiles (icons in the hero and footer) ---------------------
+email: avijaykumar@uchicago.edu
+github: adivijaykumar
+gitlab: aditya.vijaykumar      # git.ligo.org
+instagram: adivijaykumar
+scholar: cLlRcPYAAAAJ
+# orcid: 0000-0000-0000-0000
+
+# --- Build -----------------------------------------------------------------
 plugins:
   - jekyll-seo-tag
   - jekyll-gist
@@ -130,9 +53,6 @@ plugins:
   - jemoji
   - jekyll-admin
   - jekyll-paginate-v2
-
-jekyll-mentions:
-  base_url: https://github.com
 
 compress_html:
   ignore:
@@ -142,11 +62,11 @@ compress_html:
 
 exclude:
   [
-    "travis.sh",
     "README.md",
     "Gemfile",
     "Gemfile.lock",
-    "FAQ.md",
     "node_modules",
     "vendor",
+    "pixi.toml",
+    "pixi.lock",
   ]

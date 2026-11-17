@@ -2,9 +2,6 @@
 layout: post
 title: Who's the Gabru?
 subtitle: Udta Punjab is India’s Requiem for a Dream.
-bigimg: "/img/udta.jpeg"
-image: "/img/udta.jpeg"
-share-img: "/img/udta.jpeg"
 tags: [Writings, Movies]
 ---
 Hello World. It feels nice to be back. Ever since I have been home after compres in Pilani, the Saturday morning movie has almost become a ritual. Oh how I love Pune, for its cheap movie tickets!

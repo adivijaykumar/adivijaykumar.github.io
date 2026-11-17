@@ -1,0 +1,74 @@
+# Builds the site with Jekyll and deploys it to GitHub Pages.
+#
+# - Every push builds the site and checks internal links; only `master` deploys.
+# - The CV PDF is downloaded from the resume repo at build time, so the site
+#   always serves the latest version without committing a copy here.
+# - A daily run (and the "Run workflow" button) picks up CV changes.
+# - The resume repo can trigger an immediate rebuild with a
+#   `repository_dispatch` event of type `cv-updated`.
+#
+# Requires Settings → Pages → Build and deployment → Source: "GitHub Actions".
+
+name: Build and deploy site
+
+on:
+  push:
+    branches: ["**"]
+  schedule:
+    - cron: "23 9 * * *" # daily, ~4am Chicago
+  workflow_dispatch:
+  repository_dispatch:
+    types: [cv-updated]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: ${{ github.ref != 'refs/heads/master' }}
+
+env:
+  CV_URL: https://raw.githubusercontent.com/adivijaykumar/resume/master/Vijaykumar_CV_with_pubs.pdf
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+
+      - name: Fetch the latest CV
+        run: |
+          curl -fsSL --retry 3 -o Vijaykumar_CV.pdf "$CV_URL"
+          file Vijaykumar_CV.pdf | grep -q "PDF document"
+
+      - name: Build site
+        run: bundle exec jekyll build
+        env:
+          JEKYLL_ENV: production
+          PAGES_REPO_NWO: ${{ github.repository }}
+          JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Check internal links
+        run: bundle exec htmlproofer _site --disable-external --ignore-missing-alt
+
+      - name: Upload site
+        if: github.ref == 'refs/heads/master'
+        uses: actions/upload-pages-artifact@v5
+
+  deploy:
+    if: github.ref == 'refs/heads/master'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5

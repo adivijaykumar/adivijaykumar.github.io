@@ -1,0 +1,37 @@
+{%- comment -%}
+  Renders a list of papers from _data/papers.yml.
+  Usage: include paper-list.html papers=site.data.papers.short
+{%- endcomment -%}
+<ol class="papers">
+  {% assign prev_year = "" %}
+  {% for p in include.papers %}
+    {% assign year = p.year | append: "" %}
+    {%- comment -%} SciX link: explicit `scix:` field, else built from the arXiv URL (arXiv ID or ADS bibcode) {%- endcomment -%}
+    {% assign scix = "" %}
+    {% if p.scix %}
+      {% assign scix = p.scix %}
+    {% elsif p.arxiv contains "arxiv.org/abs/" %}
+      {% assign arxiv_id = p.arxiv | split: "arxiv.org/abs/" | last %}
+      {% assign scix = "https://scixplorer.org/abs/arXiv:" | append: arxiv_id %}
+    {% elsif p.arxiv contains "adsabs.harvard.edu" %}
+      {% assign bibcode = p.arxiv | split: "abs/" | last | split: "/" | first %}
+      {% assign scix = "https://scixplorer.org/abs/" | append: bibcode %}
+    {% endif %}
+    {% assign href = scix %}
+    {% if href == "" and p.journal %}{% assign href = p.journal.url %}{% endif %}
+    <li class="paper">
+      <div class="paper-year">{% if year != prev_year %}{{ year }}{% endif %}</div>
+      <div class="paper-body">
+        <h3 class="paper-title"><a href="{{ href }}">{{ p.title }}</a></h3>
+        <p class="paper-authors">{{ p.authors | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>
+        <div class="paper-links">
+          {% if p.journal %}<a class="chip chip-venue" href="{{ p.journal.url }}">{{ p.journal.name }}</a>{% endif %}
+          {% if scix != "" %}<a class="chip" href="{{ scix }}">SciX</a>{% endif %}
+          {% for e in p.extra %}<a class="chip chip-extra" href="{{ e.url }}">{{ e.name }}</a>{% endfor %}
+          {% if p.note %}<span class="paper-note">{{ p.note }}</span>{% endif %}
+        </div>
+      </div>
+    </li>
+    {% assign prev_year = year %}
+  {% endfor %}
+</ol>
