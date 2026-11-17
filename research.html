@@ -1,0 +1,76 @@
+---
+title: Research
+layout: default
+permalink: /research/
+description: Papers and research by Aditya Vijaykumar on gravitational-wave physics, astrophysics and data analysis.
+---
+{% comment %} Papers live in _data/papers.yml {% endcomment %}
+{% assign papers = site.data.papers %}
+
+<header class="container page-head reveal">
+  <p class="eyebrow">Research</p>
+  <h1 class="page-title">Gravitational-wave astrophysics and cosmology</h1>
+  <p class="page-lede">
+    I work on the physics, astrophysics and data analysis of gravitational waves, and dabble in scientific computing now and then.
+  </p>
+</header>
+
+<div class="container page-body research reveal" style="--delay: 80ms">
+  <figure class="xkcd">
+    <img src="https://imgs.xkcd.com/comics/gravitational_waves_2x.png"
+         srcset="https://imgs.xkcd.com/comics/gravitational_waves.png 614w, https://imgs.xkcd.com/comics/gravitational_waves_2x.png 1228w"
+         sizes="(max-width: 1120px) calc(100vw - 40px), 1040px"
+         alt="xkcd comic 1642 about gravitational waves" width="1228" height="569">
+    <figcaption><a href="https://xkcd.com/1642/">xkcd 1642</a> · <a href="https://www.explainxkcd.com/wiki/index.php/1642:_Gravitational_Waves">explained</a></figcaption>
+  </figure>
+
+  <div class="research-intro">
+    <div class="prose">
+      <p>
+        The most up-to-date lists of my papers are on SciX and arXiv; they're also collected below.
+        Plain-language summaries (Twitter threads and Astrobites articles) are linked next to the papers that have them.
+      </p>
+      <p>
+        If you have questions or comments about my work, or the field in general, don't hesitate to reach out at <code>avijaykumar&nbsp;[at]&nbsp;uchicago&nbsp;[dot]&nbsp;edu</code>.
+      </p>
+    </div>
+
+    <div class="link-chips">
+      <a class="chip" href="https://scixplorer.org/user/libraries/LqJDfKCTTdeuL_Inb7SwVw">SciX library <span aria-hidden="true">↗</span></a>
+      <a class="chip" href="https://arxiv.org/a/vijaykumar_a_1.html">arXiv <span aria-hidden="true">↗</span></a>
+      {% if site.scholar %}<a class="chip" href="https://scholar.google.com/citations?user={{ site.scholar }}">Google Scholar <span aria-hidden="true">↗</span></a>{% endif %}
+      <a class="chip" href="{{ site.cv_url }}">CV <span aria-hidden="true">↗</span></a>
+    </div>
+  </div>
+
+  <nav class="paper-toc" aria-label="Paper sections">
+    <a href="#short">Short author list <span>{{ papers.short.size }}</span></a>
+    <a href="#collaboration">Collaboration <span>{{ papers.collaboration.size }}</span></a>
+    <a href="#other">Other <span>{{ papers.other.size }}</span></a>
+  </nav>
+
+  <section class="paper-section" id="short">
+    <div class="paper-section-head">
+      <h2>Short author-list papers</h2>
+      <span class="count">{{ papers.short.size }}</span>
+    </div>
+    {% include paper-list.html papers=papers.short %}
+  </section>
+
+  <section class="paper-section" id="collaboration">
+    <div class="paper-section-head">
+      <h2>Collaboration papers</h2>
+      <span class="count">{{ papers.collaboration.size }}</span>
+    </div>
+    <p class="paper-section-note">Long author-list papers to which I made a direct and substantial contribution.</p>
+    {% include paper-list.html papers=papers.collaboration %}
+  </section>
+
+  <section class="paper-section" id="other">
+    <div class="paper-section-head">
+      <h2>Other papers</h2>
+      <span class="count">{{ papers.other.size }}</span>
+    </div>
+    {% include paper-list.html papers=papers.other %}
+  </section>
+</div>

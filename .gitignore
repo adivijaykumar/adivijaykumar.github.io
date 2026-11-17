@@ -7,3 +7,11 @@ _site
 .DS_Store
 Thumbs.db
 ehthumbs.db
+
+# pixi / bundler
+.pixi/
+vendor/
+.jekyll-cache/
+
+# CV is downloaded at build time (CI) or with `pixi run update-cv` (local)
+Vijaykumar_CV.pdf

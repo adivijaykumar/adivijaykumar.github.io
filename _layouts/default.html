@@ -10,13 +10,25 @@ layout: compress
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="{{ site.name }}">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#faf8f5" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#121110" media="(prefers-color-scheme: dark)">
+  <script>(function(){try{var t=localStorage.getItem("theme");if(t==="light"||t==="dark"){document.documentElement.setAttribute("data-theme",t);}}catch(e){}})();</script>
   {% seo %}
   {% include favicon.html %}
-  <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}/feed.xml">
-  <link rel="stylesheet" href="/assets/css/ishtyle.css">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ '/feed.xml' | relative_url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400;1,6..72,500&display=swap">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+  <script src="{{ '/assets/js/site.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
 </head>
-<body>
-  {{ content }}
+<body class="{% if page.url == '/' %}is-home{% endif %}">
+  <a class="skip-link" href="#main">Skip to content</a>
+  {% include site-header.html %}
+  <main id="main">
+    {{ content }}
+  </main>
+  {% include site-footer.html %}
 </body>
 </html>
